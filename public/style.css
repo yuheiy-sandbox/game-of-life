@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+}
+
+.cell {
+  min-width: 15px;
+  height: 15px;
+  margin: 1px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.cell.is-active {
+  background-color: #000;
+}
